@@ -1,3 +1,5 @@
+-- https://leetcode.com/problems/shortest-distance-in-a-line/solution/ 
+
 SELECT
     MIN(ABS(p1.x - p2.x)) AS shortest
 FROM
